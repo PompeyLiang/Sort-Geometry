@@ -6,7 +6,7 @@ Compent name:
 Input Parameter:
         Geometry(Type:Curve): The curves are needed to sort.
         Reverse(Type:Boolen): Whether reverse the output list.
-Outpur:
+Output:
         Geometey: Sorted curves
         
 __author__ = "Liang Mayuqi"
