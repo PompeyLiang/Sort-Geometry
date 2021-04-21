@@ -1,6 +1,6 @@
 '''
 
-This is a python component that sort input curves based on curves' middle points in Y axis  
+This is a python component that sort input curves based on curves' middle points in X axis  
 
 Compent name:
 Input Parameter:
