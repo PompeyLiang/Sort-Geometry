@@ -36,13 +36,13 @@ def find_center(geometry):
 def sort_list_object(list, curve, boolen):
   '''
   __name__: sort_list_object
-  __msg__: Transform point to new coordinate plane. Sort index list based on new point.X list; and then access curves list with sorted index list. 
+  __msg__: Sort index list based on t values of the cloesest points on guide curve correspoinding to the input points; and then access curves list with sorted index list. 
   __paras__: 
         geometry: Curves that needed to sorted.
         curve: The vector to sort curves.
-        boolen: 
+        boolen: Whether sort curves based on distance
   __return__: 
-        index list: Sorted curves list.
+        index list: Sorted index list.
   '''
     length = len(list)
     t_value = [curve.ClosestPoint(point)[1] for point in list]
