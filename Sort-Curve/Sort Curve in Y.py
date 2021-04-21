@@ -1,7 +1,8 @@
 '''
 
 This is a python component that sort input curves based on curves' middle points in Y axis  
-Compent name:
+
+Compent name: Sort Curve in Y
 Input Parameter:
         Geometry(Type:Curve): The curves are needed to sort.
         Reverse(Type:Boolen): Whether reverse the output list.
@@ -25,7 +26,6 @@ def find_center(geometry):
   __return__: 
         point: Center point.
   '''
-                
     tValue_list = geometry.DivideByCount(100,True)
     point_list = [geometry.PointAt(t) for t in tValue_list]
     length = len(point_list)
