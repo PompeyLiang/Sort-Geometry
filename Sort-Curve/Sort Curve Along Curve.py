@@ -1,10 +1,11 @@
 '''
-This is a python component that sort input curves based on input vector. To transform all input curves into a new coordinate plane.
-And then extract the new middle point x values, sort curves baesd on this new x values list.
-Compent name: Sort Curve Along Vector
+This is a python component that sort input curves based on guide curve. Can choose two different ways to sort input curves: to sort curves by the distance between curves'
+middle points to the cloest points on guide curve; or sort curves along guide curve tangent. 
+Compent name: Sort Curve Along Curve
 Input Parameter:
         Geometry(Type:Curve): The curves are needed to sort.
-        Guide(Type:Vector): Sort curves based on this vector. 
+        Curve(Type:Curve): Sort curves based on this curve. 
+        Distance(Type: Boolen): Whether sort input curves based on distance between curves' middle points to the cloesest point on guide curve.
         Reverse(Type:Boolen): Whether reverse the output list.
 Output:
         Geometey: Sorted curves
