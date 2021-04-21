@@ -2,7 +2,7 @@
 This is a python component that sort input points based on X axis  
 '''
 
-__author__ = "jujud"
+__author__ = "Liang_Mayuqi"
 __version__ = "2021.04.20"
                 
 import rhinoscriptsyntax as rs
