@@ -2,7 +2,7 @@
 
 This is a python component that sort input curves based on curves' middle points in X axis  
 
-Compent name:
+Compent name: Sort Curve in X
 Input Parameter:
         Geometry(Type:Curve): The curves are needed to sort.
         Reverse(Type:Boolen): Whether reverse the output list.
