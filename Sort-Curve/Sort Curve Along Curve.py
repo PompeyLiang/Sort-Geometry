@@ -41,7 +41,7 @@ def sort_list_object(list, curve, boolen):
   __msg__: Sort index list based on t values of the cloesest points on guide curve correspoinding to the input points; and then access curves list with sorted index list. 
   __paras__: 
         geometry: Curves that needed to sorted.
-        curve: The vector to sort curves.
+        curve: The guide curve to sort index value.
         boolen: Whether sort curves based on distance
   __return__: 
         index list: Sorted index list.
