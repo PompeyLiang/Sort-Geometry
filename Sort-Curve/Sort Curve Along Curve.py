@@ -1,4 +1,5 @@
 '''
+
 This is a python component that sort input curves based on guide curve. Can choose two different ways to sort input curves: to sort curves by the distance between curves'
 middle points to the cloest points on guide curve; or sort curves along guide curve tangent. 
 Compent name: Sort Curve Along Curve
@@ -12,6 +13,7 @@ Output:
         
 __author__ = "Liang Mayuqi"
 __version__ = "2021.04.20"
+
 '''     
 
 import Rhino.Geometry as rg
