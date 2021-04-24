@@ -1,0 +1,3 @@
+1. To simpfy sort geometry in x,y,z axis(put into one component).
+2. Sort geometry within special distance between sorted geometries and guide curve. 
+3. Try to sort all types of geometry with one componment.
