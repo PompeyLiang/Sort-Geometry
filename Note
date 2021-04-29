@@ -1,4 +1,4 @@
-1. To simpfy sort geometry in x,y,z axis(put into one component).
+1. To simpfy sort geometry in x,y,z axis(put into one component). (DONE)
 2. Sort geometry within special distance between sorted geometries and guide curve. 
 3. Sort and rotate geometry based on guide curve tangent.
-4. Try to sort all types of geometry with one componment.
+4. Try to sort all types of geometry with one componment. (DONE)
