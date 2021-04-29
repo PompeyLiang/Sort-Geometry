@@ -1,7 +1,6 @@
 """
 
-This is a python component that sort input breps based on guide curve. Can choose two different ways to sort input breps: to sort breps by the distance between breps'
-center points to the cloest points on guide curve; or sort breps along guide curve tangent. 
+This is a python component that sort input geometries based on special direction. This component works with point, curve and brep class.
 
 Compent name: Sort Geometry Along Vector     
 Input Parameter:
